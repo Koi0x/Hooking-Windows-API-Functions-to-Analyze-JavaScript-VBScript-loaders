@@ -1,4 +1,4 @@
-##Hooking-Windows-API-Functions-to-Analyze-JavaScript-VBScript-loaders
+### Hooking-Windows-API-Functions-to-Analyze-JavaScript-VBScript-loaders
 ***Overview*** 
 
 Original idea credits go to Open Analysis Labs(OALabs). This will cover using a debugger to hook standard Windows API function calls used in JavaScript/VBScript loaders used in malware to analyze the original loader.  
