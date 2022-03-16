@@ -46,7 +46,7 @@ At this point, you can start the debugger and continue until you hit the breakpo
 ![image](https://user-images.githubusercontent.com/95584654/158504684-d978c75f-423c-4929-8a4d-6a5892ae803c.png)
 
 
-After setting the breakpoint, continue debugging and you should hit the breakpoint on ShellExecuteExW. We want to look at the parameters for the function that were pushed on the stack—looking at the MSDN documentation for ShellExecuteExW. The only "parameter" is a pointer to the SHELLEXECUTEINFOW structure. 
+After setting the breakpoint, continue debugging and you should hit the breakpoint on ShellExecuteExW. We want to look at the parameters for the function that were pushed on the stack. Looking at the MSDN documentation for ShellExecuteExW. The only "parameter" is a pointer to the SHELLEXECUTEINFOW structure. 
 
 Looking at the structure, the two main parameters we want to look at are LPCSTR lpVerb and LPCSTR lpFile. 
 
