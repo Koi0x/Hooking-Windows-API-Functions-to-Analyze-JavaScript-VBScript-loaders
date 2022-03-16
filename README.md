@@ -8,7 +8,7 @@ Original idea credits go to Open Analysis Labs(OALabs). This will cover using a 
 
 - x32/64dbg
 
-***Understanding wscript.exe ***
+***Understanding wscript.exe***
 
 Essentially when Windows runs a JavaScript/VBScript, which calls Windows API functions, it will use wscript.exe as a middle man between the script and the Windows API.
 
